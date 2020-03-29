@@ -13,6 +13,7 @@ pillow = "*"
 scikit-learn = "*"
 pykalman = "*"
 scipy = "*"
+filterpy = "*"
 
 [requires]
 python_version = "3.7"

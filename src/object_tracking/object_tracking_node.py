@@ -1,9 +1,11 @@
-import rclpy.node import Node
+import rclpy.node
+import Node
 
 from darknet_ros_msgs.msg import BoundingBoxes
 from object_analytics_msgs.msg import TrackedObjects
 
 from tracking import Tracker
+
 
 class ObjectTrackingNode(Node):
     def __init__(self):
@@ -16,6 +18,7 @@ class ObjectTrackingNode(Node):
 
     def tracker_callback(self, msg):
         pass
+
 
 def main(args=None):
     rclpy.init(args=args)
