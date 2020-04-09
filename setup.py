@@ -18,7 +18,6 @@ setup(
     ],
     package_dir={'': 'src', },
     py_modules=[],
-    zip_safe=True,
     install_requires=['setuptools'],
     author='Andreas Klintberg',
     author_email='andreas.klintberg@gmail.com',
