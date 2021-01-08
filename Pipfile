@@ -4,16 +4,12 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-jupyter = "*"
 pandas = "*"
-matplotlib = "*"
-pillow = "*"
 
 [packages]
-scikit-learn = "*"
-pykalman = "*"
-scipy = "*"
 filterpy = "*"
+scipy = "*"
+pytest = "*"
 
 [requires]
 python_version = "3.7"
